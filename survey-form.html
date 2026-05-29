@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Survey Form</title>
+</head>
+
+<body>
+
+  <h1>Survey Form</h1>
+
+  <div class="container">
+
+    <p classs="title">
+      Let us know how we can improve freeCodeCamp
+    </p>
+
+    <form>
+
+      <!-- Name -->
+      <div class="form-group">
+        <label>* Name:</label>
+        <input type="text" placeholder="Enter your name">
+      </div>
+
+      <!-- Email -->
+      <div class="form-group">
+        <label>* Email:</label>
+        <input type="email" placeholder="Enter your Email">
+      </div>
+
+      <!-- Age -->
+      <div class="form-group">
+        <label>* Age:</label>
+        <input type="number" placeholder="Age">
+      </div>
+
+      <!-- Role -->
+      <div class="form-group">
+        <label>Which option best describes your current role?</label>
+
+        <select>
+          <option>Student</option>
+          <option>Teacher</option>
+          <option>Developer</option>
+          <option>Other</option>
+        </select>
+      </div>
+
+      <!-- Recommendation -->
+      <div class="form-group">
+        <label>
+          * How likely is that you would recommend freeCodeCamp to a friend?
+        </label>
+
+        <div class="radio-group">
+          <label>
+            <input type="radio" name="recommend">
+            Definitely
+          </label>
+
+          <label>
+            <input type="radio" name="recommend">
+            Maybe
+          </label>
+
+          <label>
+            <input type="radio" name="recommend">
+            Not sure
+          </label>
+        </div>
+      </div>
+
+      <!-- Favorite -->
+      <div class="form-group">
+        <label>What do you like most in FCC:</label>
+
+        <select>
+          <option>Select an option</option>
+          <option>Projects</option>
+          <option>Challenges</option>
+          <option>Community</option>
+        </select>
+      </div>
+
+      <!-- Improvements -->
+      <div class="form-group">
+        <label>
+          Things that should be improved in the future
+          (Check all that apply):
+        </label>
+
+        <div class="checkbox-group">
+
+          <label>
+            <input type="checkbox">
+            Front-end Projects
+          </label>
+
+          <label>
+            <input type="checkbox">
+            Back-end Projects
+          </label>
+
+          <label>
+            <input type="checkbox">
+            Data Visualization
+          </label>
+
+          <label>
+            <input type="checkbox">
+            Videos
+          </label>
+
+          <label>
+            <input type="checkbox">
+            Community Support
+          </label>
+
+        </div>
+      </div>
+
+      <!-- Comments -->
+      <div class="form-group">
+        <label>Any Comments or Suggestions?</label>
+
+        <textarea placeholder="Enter your comment here..."></textarea>
+      </div>
+
+      <!-- Button -->
+      <div class="submit-btn">
+        <button type="submit">Submit</button>
+      </div>
+
+    </form>
+
+  </div>
+
+</body>
+</html>
